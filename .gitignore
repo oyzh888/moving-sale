@@ -1,0 +1,5 @@
+# Originals (large, carry phone metadata) and private working notes stay local
+raw/
+internal/
+.DS_Store
+__pycache__/
