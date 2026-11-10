@@ -25,12 +25,12 @@ def main():
         "",
         "## Index",
         "",
-        "| # | Item | 中文 | Price | Status |",
-        "|---|------|------|-------|--------|",
+        "| # | Item | 中文 | Price | New / similar new | Status |",
+        "|---|------|------|-------|-------------------|--------|",
     ]
     for r in rows:
         title = f"~~{r['title']}~~" if r["status"] == "sold" else r["title"]
-        out.append(f"| [{r['id']}](#{r['id'].lower()}) | {title} | {r['title_zh']} | {price(r)} | {STATUS[r['status']]} |")
+        out.append(f"| [{r['id']}](#{r['id'].lower()}) | {title} | {r['title_zh']} | **{price(r)}** | {r['retail']} | {STATUS[r['status']]} |")
     cats = []
     for r in rows:
         if r["category"] not in cats:
@@ -41,6 +41,8 @@ def main():
             imgs = sorted(glob.glob(os.path.join(ROOT, "images", f"{r['id']}_*.jpg")))
             out += ["", f'<a id="{r["id"].lower()}"></a>', f"### {r['id']} · {r['title']} · {price(r)} · {STATUS[r['status']]}", "",
                     r["title_zh"], "", r["notes"], ""]
+            if r["retail"]:
+                out += [f"New price for reference: {r['retail']} ({r['retail_ref']})", ""]
             out.append(" ".join(f'<img src="images/{os.path.basename(p)}" width="360">' for p in imgs))
     out.append("")
     open(os.path.join(ROOT, "README.md"), "w", encoding="utf-8").write("\n".join(out))

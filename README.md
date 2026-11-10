@@ -6,26 +6,26 @@ Everything here is used and pickup only. **Message me on Facebook Marketplace wi
 
 ## Index
 
-| # | Item | 中文 | Price | Status |
-|---|------|------|-------|--------|
-| [M01](#m01) | BlessReach all-terrain knee scooter with storage bag | 膝行滑板车（带收纳包） | $60 | 🟢 Available |
-| [M02](#m02) | iWALK Free hands-free knee crutch | iWALK 免手持拐杖 | $60 | 🟢 Available |
-| [M03](#m03) | Top Shelf aluminum underarm crutches (pair) | 腋下拐杖一对 | $10 | 🟢 Available |
-| [F01](#f01) | Charcoal L-shaped sectional sofa with chaise | 深灰色 L 型沙发（带贵妃位） | $250 | 🟢 Available |
-| [F02](#f02) | White dining table / desk with wood legs | 白色餐桌/书桌（实木腿） | $40 | 🟢 Available |
-| [F03](#f03) | White shell chairs with wood legs | 白色伊姆斯风格椅子 | $15 | 🟢 Available |
-| [F04](#f04) | Black wood X-back bar stools with cushion | 黑色实木吧台椅（带坐垫） | $30 | 🟢 Available |
-| [F05](#f05) | Electric standing desk - light wood top / white frame | 电动升降桌（浅木色桌面/白色桌腿） | $90 | 🟢 Available |
-| [F06](#f06) | Dark brown drawer unit | 深棕色抽屉柜 | $30 | ⚪ Details coming |
-| [F07](#f07) | Black-brown low TV bench | 黑棕色电视柜 | $25 | 🟢 Available |
-| [F08](#f08) | White 2-tier metal tray cart | 白色双层金属置物架 | $15 | 🟢 Available |
-| [F09](#f09) | Shelf floor lamp with fabric shade | 带置物架落地灯 | $20 | 🟢 Available |
-| [E01](#e01) | Large flat-screen TV | 大屏平板电视 | ask | ⚪ Details coming |
-| [E02](#e02) | Curved monitor with stand | 曲面显示器 | ask | ⚪ Details coming |
-| [E03](#e03) | Roborock robot vacuum with charging dock | 石头扫地机器人（带充电座） | $80 | 🟢 Available |
-| [K01](#k01) | Instant Vortex air fryer | Instant Vortex 空气炸锅 | $30 | 🟢 Available |
-| [K02](#k02) | Dash mini toaster oven | Dash 迷你烤箱 | $10 | 🟢 Available |
-| [X01](#x01) | Giant light-blue round plush | 超大浅蓝色毛绒玩偶 | $15 | 🟢 Available |
+| # | Item | 中文 | Price | New / similar new | Status |
+|---|------|------|-------|-------------------|--------|
+| [M01](#m01) | BlessReach all-terrain knee scooter with storage bag | 膝行滑板车（带收纳包） | **$60** | $140 | 🟢 Available |
+| [M02](#m02) | iWALK Free hands-free knee crutch | iWALK 免手持拐杖 | **$60** | $169 | 🟢 Available |
+| [M03](#m03) | Top Shelf aluminum underarm crutches (pair) | 腋下拐杖一对 | **$10** |  | 🟢 Available |
+| [F01](#f01) | Charcoal L-shaped sectional sofa with chaise | 深灰色 L 型沙发（带贵妃位） | **$250** | ~$1,150 | 🟢 Available |
+| [F02](#f02) | White dining table / desk with wood legs | 白色餐桌/书桌（实木腿） | **$40** |  | 🟢 Available |
+| [F03](#f03) | White shell chairs with wood legs | 白色伊姆斯风格椅子 | **$15** | ~$45 | 🟢 Available |
+| [F04](#f04) | Black wood X-back bar stools with cushion | 黑色实木吧台椅（带坐垫） | **$30** | $60+ | 🟢 Available |
+| [F05](#f05) | Electric standing desk - light wood top / white frame | 电动升降桌（浅木色桌面/白色桌腿） | **$90** | ~$240 | 🟢 Available |
+| [F06](#f06) | Dark brown drawer unit | 深棕色抽屉柜 | **$30** |  | ⚪ Details coming |
+| [F07](#f07) | Black-brown low TV bench | 黑棕色电视柜 | **$25** | $65 | 🟢 Available |
+| [F08](#f08) | White 2-tier metal tray cart | 白色双层金属置物架 | **$15** |  | 🟢 Available |
+| [F09](#f09) | Shelf floor lamp with fabric shade | 带置物架落地灯 | **$20** | ~$55 | 🟢 Available |
+| [E01](#e01) | Large flat-screen TV | 大屏平板电视 | **ask** |  | ⚪ Details coming |
+| [E02](#e02) | Curved monitor with stand | 曲面显示器 | **ask** |  | ⚪ Details coming |
+| [E03](#e03) | Roborock robot vacuum with charging dock | 石头扫地机器人（带充电座） | **$80** |  | 🟢 Available |
+| [K01](#k01) | Instant Vortex air fryer | Instant Vortex 空气炸锅 | **$30** | ~$100-130 | 🟢 Available |
+| [K02](#k02) | Dash mini toaster oven | Dash 迷你烤箱 | **$10** | $30 | 🟢 Available |
+| [X01](#x01) | Giant light-blue round plush | 超大浅蓝色毛绒玩偶 | **$15** |  | 🟢 Available |
 
 ## Mobility & Recovery
 
@@ -36,6 +36,8 @@ Everything here is used and pickup only. **Message me on Facebook Marketplace wi
 
 Black, 4 large wheels, hand brake, folding steering column. Clean, good shape.
 
+New price for reference: $140 (BlessReach all-terrain knee scooter, Walmart listing)
+
 <img src="images/M01_1.jpg" width="360"> <img src="images/M01_2.jpg" width="360">
 
 <a id="m02"></a>
@@ -44,6 +46,8 @@ Black, 4 large wheels, hand brake, folding steering column. Clean, good shape.
 iWALK 免手持拐杖
 
 Black/blue. Light scuffs on the foot.
+
+New price for reference: $169 (iWALK 3.0, typical retail)
 
 <img src="images/M02_1.jpg" width="360">
 
@@ -65,6 +69,8 @@ Height adjustable. Hand grips show wear.
 
 Fabric, loose back cushions, chrome legs. Includes 2 lumbar cushions + 2 mustard throw pillows. Normal wear, no tears seen.
 
+New price for reference: ~$1,150 (similar: IKEA SÖDERHAMN sectional with chaise)
+
 <img src="images/F01_1.jpg" width="360"> <img src="images/F01_2.jpg" width="360">
 
 <a id="f02"></a>
@@ -83,6 +89,8 @@ Rounded corners, approx 4 ft x 2.5 ft. Light surface marks.
 
 Price is per chair. Some scuffs on one backrest.
 
+New price for reference: ~$45 (similar shell chairs, about $190 per set of 4)
+
 <img src="images/F03_1.jpg" width="360">
 
 <a id="f04"></a>
@@ -92,6 +100,8 @@ Price is per chair. Some scuffs on one backrest.
 
 Price is per stool, 2 available. Light wear.
 
+New price for reference: $60+ (similar: IKEA INGOLF bar stool, each)
+
 <img src="images/F04_1.jpg" width="360">
 
 <a id="f05"></a>
@@ -100,6 +110,8 @@ Price is per stool, 2 available. Light wear.
 电动升降桌（浅木色桌面/白色桌腿）
 
 Height adjustable, white T-leg frame.
+
+New price for reference: ~$240 (similar 48 in electric standing desk)
 
 <img src="images/F05_1.jpg" width="360"> <img src="images/F05_2.jpg" width="360">
 
@@ -119,6 +131,8 @@ Wood-grain finish, clean white drawer interior.
 
 Open lower shelf, approx 55-60 in wide.
 
+New price for reference: $65 (similar: IKEA LACK TV unit 63 in)
+
 <img src="images/F07_1.jpg" width="360">
 
 <a id="f08"></a>
@@ -136,6 +150,8 @@ Minor scuffs on tray rim.
 带置物架落地灯
 
 White, 3 shelves, pull-chain switch. Works.
+
+New price for reference: ~$55 (similar shelf floor lamps)
 
 <img src="images/F09_1.jpg" width="360">
 
@@ -177,6 +193,8 @@ Instant Vortex 空气炸锅
 
 Black, single basket, powers on.
 
+New price for reference: ~$100-130 (Instant Vortex 6-qt class)
+
 <img src="images/K01_1.jpg" width="360">
 
 <a id="k02"></a>
@@ -185,6 +203,8 @@ Black, single basket, powers on.
 Dash 迷你烤箱
 
 Pastel yellow, includes tray and rack.
+
+New price for reference: $30 (Dash Mini Toaster Oven MSRP)
 
 <img src="images/K02_1.jpg" width="360"> <img src="images/K02_2.jpg" width="360">
 

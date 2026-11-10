@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Moving Sale / 搬家出售</title>
+<style>
+  :root { color-scheme: light dark; --bg:#f6f6f4; --card:#fff; --ink:#1b1b1b; --mute:#6b6b6b; --line:#e2e2de; --ok:#1a7f37; --warn:#9a6700; --bad:#b42318; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#151515; --card:#1f1f1f; --ink:#eee; --mute:#a0a0a0; --line:#333; --ok:#4ac26b; --warn:#d4a72c; --bad:#ff7b72; } }
+  * { box-sizing: border-box; }
+  body { margin:0; font:16px/1.45 -apple-system, "Segoe UI", "PingFang SC", sans-serif; background:var(--bg); color:var(--ink); }
+  header, main { max-width:1100px; margin:0 auto; padding:16px; }
+  h1 { margin:8px 0 4px; font-size:28px; }
+  p.lead { margin:4px 0; color:var(--mute); }
+  .bar { display:flex; flex-wrap:wrap; gap:8px; margin:14px 0 0; }
+  .bar button { border:1px solid var(--line); background:var(--card); color:var(--ink); border-radius:999px; padding:6px 14px; font:inherit; cursor:pointer; }
+  .bar button.on { background:var(--ink); color:var(--bg); border-color:var(--ink); }
+  .grid { display:grid; grid-template-columns:repeat(auto-fill, minmax(300px, 1fr)); gap:16px; }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:12px; overflow:hidden; display:flex; flex-direction:column; }
+  .card.sold { opacity:.5; }
+  .photos { display:flex; overflow-x:auto; scroll-snap-type:x mandatory; background:#000; }
+  .photos img { width:100%; flex:0 0 100%; aspect-ratio:1; object-fit:contain; scroll-snap-align:start; cursor:zoom-in; }
+  .body { padding:12px 14px 14px; display:flex; flex-direction:column; gap:6px; }
+  .top { display:flex; justify-content:space-between; align-items:baseline; gap:8px; }
+  .id { font-weight:700; font-size:14px; border:1px solid var(--line); border-radius:6px; padding:1px 7px; }
+  .status { font-size:13px; font-weight:600; }
+  .status.available { color:var(--ok); } .status.pending, .status.draft { color:var(--warn); } .status.sold { color:var(--bad); }
+  h2 { font-size:17px; margin:2px 0 0; }
+  .zh, .notes, .count { color:var(--mute); font-size:14px; margin:0; }
+  .price { font-size:22px; font-weight:700; }
+  .retail { font-size:13px; color:var(--mute); }
+  .retail s { margin-right:4px; }
+  .todo { font-size:13px; background:#fff4ce; color:#5c4400; border-radius:6px; padding:6px 8px; }
+  #err { color:var(--bad); }
+</style>
+</head>
+<body>
+<header>
+  <h1>Moving Sale / 搬家出售</h1>
+  <p class="lead">Used, pickup only. Message me on Facebook Marketplace with the item number shown on each photo (e.g. <b>F01</b>).</p>
+  <p class="lead">二手自提。请在 Facebook Marketplace 上发消息并注明图片左上角的编号。</p>
+  <div class="bar" id="bar"></div>
+</header>
+<main>
+  <p id="err"></p>
+  <div class="grid" id="grid"></div>
+</main>
+<script>
+const STATUS = { available: "Available", pending: "Pending pickup", sold: "SOLD", draft: "Details coming" };
+const admin = new URLSearchParams(location.search).has("admin");
+
+function parseCSV(text) {
+  const rows = []; let row = [], cell = "", q = false;
+  for (let i = 0; i < text.length; i++) {
+    const c = text[i];
+    if (q) { if (c === '"') { if (text[i + 1] === '"') { cell += '"'; i++; } else q = false; } else cell += c; }
+    else if (c === '"') q = true;
+    else if (c === ",") { row.push(cell); cell = ""; }
+    else if (c === "\n") { row.push(cell); rows.push(row); row = []; cell = ""; }
+    else if (c !== "\r") cell += c;
+  }
+  if (cell || row.length) { row.push(cell); rows.push(row); }
+  const head = rows.shift();
+  return rows.filter(r => r.length === head.length).map(r => Object.fromEntries(head.map((h, i) => [h, r[i]])));
+}
+
+function el(tag, cls, text) { const e = document.createElement(tag); if (cls) e.className = cls; if (text != null) e.textContent = text; return e; }
+
+function card(it) {
+  const c = el("article", "card " + it.status);
+  const photos = el("div", "photos");
+  const n = it.photos.split(";").length;
+  for (let i = 1; i <= n; i++) {
+    const img = el("img"); img.src = `images/${it.id}_${i}.jpg`; img.alt = `${it.id} ${it.title}`; img.loading = "lazy";
+    img.onclick = () => window.open(img.src, "_blank");
+    photos.append(img);
+  }
+  const body = el("div", "body");
+  const top = el("div", "top");
+  top.append(el("span", "id", it.id), el("span", "status " + it.status, STATUS[it.status] || it.status));
+  body.append(top, el("h2", "", it.title), el("p", "zh", it.title_zh));
+  body.append(el("div", "price", it.price_usd ? "$" + it.price_usd : "Ask for price"));
+  if (it.retail) {
+    const r = el("div", "retail"); r.append(el("s", "", it.retail), document.createTextNode("new · " + it.retail_ref)); body.append(r);
+  }
+  body.append(el("p", "notes", it.notes));
+  if (n > 1) body.append(el("p", "count", `${n} photos, swipe →`));
+  if (admin && it.todo) body.append(el("div", "todo", "TODO: " + it.todo));
+  c.append(photos, body);
+  return c;
+}
+
+fetch("items.csv").then(r => { if (!r.ok) throw new Error(r.status); return r.text(); }).then(text => {
+  const items = parseCSV(text);
+  const cats = ["All", ...new Set(items.map(i => i.category))];
+  const bar = document.getElementById("bar"), grid = document.getElementById("grid");
+  const show = cat => {
+    grid.replaceChildren(...items.filter(i => cat === "All" || i.category === cat).map(card));
+    [...bar.children].forEach(b => b.classList.toggle("on", b.textContent.startsWith(cat)));
+  };
+  for (const cat of cats) {
+    const n = cat === "All" ? items.length : items.filter(i => i.category === cat).length;
+    const b = el("button", "", `${cat} (${n})`); b.onclick = () => show(cat); bar.append(b);
+  }
+  show("All");
+}).catch(e => { document.getElementById("err").textContent = "Could not load items.csv: " + e.message; });
+</script>
+</body>
+</html>
