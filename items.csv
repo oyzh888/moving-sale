@@ -11,9 +11,9 @@ F06,Furniture,Dark brown drawer unit,深棕色抽屉柜,30,,,draft,4123;4124,"Wo
 F07,Furniture,Black-brown low TV bench,黑棕色电视柜,25,$65,similar: IKEA LACK TV unit 63 in,available,4133,"Open lower shelf, approx 55-60 in wide.",Measure
 F08,Furniture,White 2-tier metal tray cart,白色双层金属置物架,15,,,available,4131,Minor scuffs on tray rim.,Retake with tray cleared
 F09,Furniture,Shelf floor lamp with fabric shade,带置物架落地灯,20,~$55,similar shelf floor lamps,available,4135,"White, 3 shelves, pull-chain switch. Works.",
-E01,Electronics,Large flat-screen TV,大屏平板电视,,,,draft,4132,"Thin bezel, on feet. No visible damage.",Brand / model / size from back label; powered-on photo; set price
-E02,Electronics,Curved monitor with stand,曲面显示器,,,,draft,4146;4148,"Black, V-shaped stand. No visible cracks.",Brand / model / size; sharp powered-on photo; set price
-E03,Electronics,Roborock robot vacuum with charging dock,石头扫地机器人（带充电座）,80,,,available,4134,"LiDAR model, black. Needs a wipe-down.",Confirm model (under the lid)
+E01,Electronics,Samsung flat-screen TV on stand feet,三星平板电视,180,~$390-550,"similar Samsung 55 in 4K TV, new",available,4132,"Thin bezel, on stand feet, no visible damage. Size and model to be confirmed (looks like 55-65 in).",Confirm size/model from the back label; photo with it powered on; adjust price
+E02,Electronics,Samsung curved monitor with stand,三星曲面显示器（带支架）,70,~$150,"similar Samsung 27 in curved FHD, new",available,4146;4148,"SAMSUNG on the bezel. Black V-shaped stand, no visible cracks. Size to be confirmed.",Confirm size/model; sharp powered-on photo; adjust price
+E03,Electronics,Roborock robot vacuum (S5 Max-class) with charging dock,石头扫地机器人（S5 Max 同级）带充电座,90,$599,"Roborock S5 Max US launch price, 2019",available,4134,"LiDAR model, black, with charging dock. Needs a wipe-down.",Confirm exact model (under the lid) and that it works
 K01,Kitchen,Instant Vortex air fryer,Instant Vortex 空气炸锅,30,~$100-130,Instant Vortex 6-qt class,available,4143,"Black, single basket, powers on.",Clean exterior before pickup
 K02,Kitchen,Dash mini toaster oven,Dash 迷你烤箱,10,$30,Dash Mini Toaster Oven MSRP,available,4144;4145,"Pastel yellow, includes tray and rack.",
 X01,Other,Giant light-blue round plush,超大浅蓝色毛绒玩偶,15,,,available,4128,"Very large, soft, clean.",Whole-item photo with something for scale

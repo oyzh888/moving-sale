@@ -20,9 +20,9 @@ Everything here is used and pickup only. **Message me on Facebook Marketplace wi
 | [F07](#f07) | Black-brown low TV bench | 黑棕色电视柜 | **$25** | $65 | 🟢 Available |
 | [F08](#f08) | White 2-tier metal tray cart | 白色双层金属置物架 | **$15** |  | 🟢 Available |
 | [F09](#f09) | Shelf floor lamp with fabric shade | 带置物架落地灯 | **$20** | ~$55 | 🟢 Available |
-| [E01](#e01) | Large flat-screen TV | 大屏平板电视 | **ask** |  | ⚪ Details coming |
-| [E02](#e02) | Curved monitor with stand | 曲面显示器 | **ask** |  | ⚪ Details coming |
-| [E03](#e03) | Roborock robot vacuum with charging dock | 石头扫地机器人（带充电座） | **$80** |  | 🟢 Available |
+| [E01](#e01) | Samsung flat-screen TV on stand feet | 三星平板电视 | **$180** | ~$390-550 | 🟢 Available |
+| [E02](#e02) | Samsung curved monitor with stand | 三星曲面显示器（带支架） | **$70** | ~$150 | 🟢 Available |
+| [E03](#e03) | Roborock robot vacuum (S5 Max-class) with charging dock | 石头扫地机器人（S5 Max 同级）带充电座 | **$90** | $599 | 🟢 Available |
 | [K01](#k01) | Instant Vortex air fryer | Instant Vortex 空气炸锅 | **$30** | ~$100-130 | 🟢 Available |
 | [K02](#k02) | Dash mini toaster oven | Dash 迷你烤箱 | **$10** | $30 | 🟢 Available |
 | [X01](#x01) | Giant light-blue round plush | 超大浅蓝色毛绒玩偶 | **$15** |  | 🟢 Available |
@@ -158,29 +158,35 @@ New price for reference: ~$55 (similar shelf floor lamps)
 ## Electronics
 
 <a id="e01"></a>
-### E01 · Large flat-screen TV · ask · ⚪ Details coming
+### E01 · Samsung flat-screen TV on stand feet · $180 · 🟢 Available
 
-大屏平板电视
+三星平板电视
 
-Thin bezel, on feet. No visible damage.
+Thin bezel, on stand feet, no visible damage. Size and model to be confirmed (looks like 55-65 in).
+
+New price for reference: ~$390-550 (similar Samsung 55 in 4K TV, new)
 
 <img src="images/E01_1.jpg" width="360">
 
 <a id="e02"></a>
-### E02 · Curved monitor with stand · ask · ⚪ Details coming
+### E02 · Samsung curved monitor with stand · $70 · 🟢 Available
 
-曲面显示器
+三星曲面显示器（带支架）
 
-Black, V-shaped stand. No visible cracks.
+SAMSUNG on the bezel. Black V-shaped stand, no visible cracks. Size to be confirmed.
+
+New price for reference: ~$150 (similar Samsung 27 in curved FHD, new)
 
 <img src="images/E02_1.jpg" width="360"> <img src="images/E02_2.jpg" width="360">
 
 <a id="e03"></a>
-### E03 · Roborock robot vacuum with charging dock · $80 · 🟢 Available
+### E03 · Roborock robot vacuum (S5 Max-class) with charging dock · $90 · 🟢 Available
 
-石头扫地机器人（带充电座）
+石头扫地机器人（S5 Max 同级）带充电座
 
-LiDAR model, black. Needs a wipe-down.
+LiDAR model, black, with charging dock. Needs a wipe-down.
+
+New price for reference: $599 (Roborock S5 Max US launch price, 2019)
 
 <img src="images/E03_1.jpg" width="360">
 
